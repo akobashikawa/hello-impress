@@ -245,27 +245,7 @@
             {x: 1000, y: 0, z: -1000, rotatex: 0, rotatey: -180, rotatez: 0},
             {x: 500, y: 0, z: -500, rotatex: 0, rotatey: -90, rotatez: 0},
           ];
-          // espiral
-          // const p = [
-          //   {x: 1500, y: 0, z: 0, rotatex: 0, rotatey: -90, rotatez: 0},
-          //   {x: 1500, y: 0, z: -1000, rotatex: 0, rotatey: -90, rotatez: 0},
-          //   {x: 1500, y: 0, z: -2000, rotatex: 0, rotatey: -90, rotatez: 0},
-            
-          //   {x: 1000, y: 0, z: -2500, rotatex: 0, rotatey: 0, rotatez: 0},
-          //   {x: 0, y: 0, z: -2500, rotatex: 0, rotatey: 0, rotatez: 0},
-          //   {x: -1000, y: 0, z: -2500, rotatex: 0, rotatey: 0, rotatez: 0},
-            
-          //   {x: -1500, y: 0, z: -2000, rotatex: 0, rotatey: 90, rotatez: 0},
-          //   {x: -1500, y: 0, z: -1000, rotatex: 0, rotatey: 90, rotatez: 0},
-            
-          //   {x: -1000, y: 0, z: -500, rotatex: 0, rotatey: 180, rotatez: 0},
-          //   {x: 0, y: 0, z: -500, rotatex: 0, rotatey: 180, rotatez: 0},
-
-          //   {x: 500, y: 0, z: -1000, rotatex: 0, rotatey: 270, rotatez: 0},
-
-          //   {x: 0, y: 0, z: -1500, rotatex: 0, rotatey: 360, rotatez: 0},
-            
-          // ];
+          
           return this.items.map((item, i) => {
             const pitem = p[i % p.length];
             item.x = pitem.x;
